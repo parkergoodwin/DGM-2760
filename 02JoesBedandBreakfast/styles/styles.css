@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.lefty {
+	position:static;
+	width:100%;
+}
+
+.container{
+	position:relative;
+	width:100%;
+}
+h1 {
+	font-family: sans-serif;
+	font-size: xx-large;
+	color: #e8551a
+
+}
+
+h2 {
+	font-family: sans-serif;
+	font-size: xx-large;
+	color: #e8551a
+
+}
+
+ul {
+	font-family: sans-serif;
+	background-repeat: no-repeat;
+	margin-left: 2%;
+	background-position: left center;
+	padding-left: 22px;
+	list-style: square;
+	border: dashed;
+	padding: 1em;
+	border-color: #e8551a;
+
+}
+
+footer {
+	background-color: #FFE7D8;
+	color: #e8551a;
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	padding: .2em .2em;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+

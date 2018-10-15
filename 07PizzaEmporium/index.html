@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Emporium</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <h1 id="business"></h1>
+    <h2 id="motto"></h2>
+</header>
+<h2 id="learned"></h2>
+<ul>
+    <li id="item1"></li>
+    <li id="item2"></li>
+    <li id="item3"></li>
+    <li id="item4"></li>
+    <li id="item5"></li>
+</ul>
+    <h2>Size of Pizza</h2>
+    <div id="type">
+        <button onclick="pizza.type='Medium'">Medium</button>
+        <button onclick="pizza.type='Large'">Large</button>
+        <button onclick="pizza.type-'Family Size'">Family Size</button>
+    </div>
+    <h2>Pizza Toppings</h2>
+    <div id="flavor">
+        <button onclick="pizza.flavor='Cheese'">Cheese</button>
+        <button onclick="pizza.flavor='Combination'">Combination</button>
+    </div>
+    <h2>Beverage Selection</h2>
+    <div id="drink">
+        <button onclick="pizza.drink='Mounatin Dew'">Mountain Dew</button>
+        <button onclick="pizza.drink='Coca-Cola'">Coca-Cola</button>
+        <button onclick="pizza.drink='Lemonade'">Lemonade</button>
+    </div>
+    <h2>Finalize Pizza</h2>
+    <div id="build">
+        <button onclick="pizza.cook()">Finalize</button>
+    </div>
+    <h2>Delivery or Pick-up</h2>
+    <div id="done">
+        <button onclick="pizza.done='Delivery'">Delivery</button>
+        <button onclick="pizza.done='Pick-up'">Pick-up</button>
+    </div>
+    <h2>Submit Order</h2>
+    <div id="type">
+        <button onclick="pizza.submitPizza()">Submit</button>
+    </div>
+    <div id="information"></div>
+    <div id="finalOrder"></div>
+    <footer id="footer"></footer>
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+
+</html>
